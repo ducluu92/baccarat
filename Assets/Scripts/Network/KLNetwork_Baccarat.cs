@@ -52,6 +52,7 @@ public class KLNetwork_Baccarat : MonoBehaviour
     #region Board_Loading
     public void BoardLoadingRequest() //int RatingIndex)
     {
+        Debug.Log ( $"Board loading request." );
         var status = SequenceManger.Call(out var seq);
 
         switch (status)
@@ -92,6 +93,7 @@ public class KLNetwork_Baccarat : MonoBehaviour
             }
             else
             {
+                Debug.Log ( $"<color=darkblue>Board Response received: {webRequest.downloadHandler.text}</color>" );
                 RoomBoardResponce responseData = JsonConvert.DeserializeObject<RoomBoardResponce>(webRequest.downloadHandler.text);
 
                 if (responseData.Status == CommonError.OK)

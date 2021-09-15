@@ -64,8 +64,9 @@ namespace Assets.Scripts.Baccarrat
             // }
             //
             // ButtonImage.sprite = ButtonSprites[this.RoomType];
-            
-            _clickEvent ();
+
+            Debug.Log ( $"<color=darkblue>Starting room</color>" );
+            //_clickEvent ();
         }
 
         void Update()
@@ -75,7 +76,7 @@ namespace Assets.Scripts.Baccarrat
             User.text = Convert.ToString(v_CurrentUserCount) + "/" + Convert.ToString(v_MaxUserCount);
         }
 
-        void _clickEvent()
+        internal void _clickEvent()
         {
             SequenceManger.SetDebug(true);
 

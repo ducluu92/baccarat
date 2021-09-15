@@ -108,7 +108,7 @@ namespace Assets.Scripts.Network
             }
         }
 
-#region Login
+        #region Login
         public void LoginRequest()
         {
             Debug.Log("Nomal-Login-Request");
@@ -171,8 +171,8 @@ namespace Assets.Scripts.Network
                 }
                 else
                 {
+                    Debug.Log ( $"<color=darkblue>Login Response: {webRequest.downloadHandler.text}</color>" );
                     // 웹 리퀘스트 성공 
-
                     LoginResponce responseData = JsonConvert.DeserializeObject<LoginResponce>(webRequest.downloadHandler.text);
 
                     if (responseData.Status == LoginStatus.Success)

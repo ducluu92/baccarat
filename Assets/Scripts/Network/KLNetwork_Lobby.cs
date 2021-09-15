@@ -29,6 +29,8 @@ using System.IO;
 using Assets.Scripts.Model.Charge;
 using Assets.Scripts.Services.Lobby;
 
+using Random = System.Random;
+
 public class KLNetwork_Lobby : MonoBehaviour
 {
     public GameObject errorAlertPanel;
@@ -93,12 +95,14 @@ public class KLNetwork_Lobby : MonoBehaviour
 
     private ICashChargeService _cashChargeService;
 
+    private List < int > roomIds;
+
     void Start()
     {
         roomItemList = new List<UIRoomItem>();
+        roomIds = new List < int > ();
         _cashChargeService = new CashChargeService();
-
-        RatingLoadingRequest();
+        
         ChargeListRequest();
 
         Time.timeScale = 1.0f;
@@ -299,9 +303,11 @@ public class KLNetwork_Lobby : MonoBehaviour
 
                     LoadingRoomData = false;
                     RoomInfoManager.roomdata = responseData;
+                    roomIds.Clear ();
                     foreach(RoomData data in RoomInfoManager.roomdata.Datas)
                     {
                         roomItem.RoomType = (int)data.Type;
+                        Debug.Log ( $"Received Index: {data.Index}" );
                         roomItem.v_RoomID = data.Index;
                         roomItem.v_RoomName = data.RoomName; // "테스트입니다..."
                         roomItem.v_CurrentUserCount = data.PlayerNow;
@@ -322,10 +328,14 @@ public class KLNetwork_Lobby : MonoBehaviour
                         newRoomItem.transform.SetParent(roomContent.transform, false);
                         
                         roomItemList.Add(newRoomItem);
+                        roomIds.Add ( data.Index );
 
                         //roomContentOffset_T += 80.0f;
                         //roomContentOffset_B -= 80.0f;
                     }
+                    
+                    Debug.Log ( $"<color=darkblue>ABOUT TO START MATCH -> Count: {roomItemList.Count}</color>" );
+                    _clickEvent ( 0 );
                 }
                 else
                 {
@@ -351,6 +361,67 @@ public class KLNetwork_Lobby : MonoBehaviour
         }
     }
     #endregion
+    
+    #region Room Selection
+    internal void _clickEvent ( int roomId ) {
+        SequenceManger.SetDebug ( true );
+        var status = SequenceManger.Call ( out var seq );
+        switch ( status ) {
+            case SequenceStatusByCall.Called:
+                return;
+            case SequenceStatusByCall.OK:
+                break;
+        }
+        var request = new ObserveRequest { UUID = UserInfoManager.loginInfo.UUID, Token = UserInfoManager.loginInfo.Token, RoomIdx = 0, Sequence = seq };
+
+        // 여기에 룸 정보 넣기
+        UserInfoManager.RoomIdx = 0;
+        var joinObserve = ApiUrlHelper.Get ( UrlRoom.JoinObserve, JsonConvert.SerializeObject ( request ) );
+        StartCoroutine ( JoinObserveResponseHandler ( joinObserve ) );
+    }
+
+    public IEnumerator JoinObserveResponseHandler ( string uri ) {
+        using ( UnityWebRequest webRequest = UnityWebRequest.Get ( uri ) ) {
+            // Request and wait for the desired page.
+            yield return webRequest.SendWebRequest ();
+            string [] pages = uri.Split ( '/' );
+            int page = pages.Length - 1;
+            if ( webRequest.isNetworkError ) {
+                Debug.Log ( pages [ page ] + ": Error: " + webRequest.error );
+                Application.Quit ();
+            } else {
+                ObserveResponce responseData = JsonConvert.DeserializeObject < ObserveResponce > ( webRequest.downloadHandler.text );
+
+                //Debug.Log(responseData.Status);
+                if ( responseData.Status == CommonError.OK ) {
+                    //SequenceManger.SetDebug(true);
+                    if ( ExitManager.DisplayBySeq ( responseData.Sequence ) ) {
+                        Application.Quit ();
+                    }
+                    Debug.Log ( $"LOADING PLAY_BACCARAT SCENE" );
+                    SceneChanger.CallSceneLoader ( "Play_Baccarat" );
+                } else {
+                    switch ( responseData.Status ) {
+                        case CommonError.FailByNotFoundRoom:
+                            Application.Quit ();
+                            break;
+                        case CommonError.FailByUnknown:
+                            Application.Quit ();
+                            break;
+                        case CommonError.FailByToken:
+                            Application.Quit ();
+                            break;
+                        case CommonError.FailByJson:
+                            Application.Quit ();
+                            break;
+                        case CommonError.FailByRattingRange:
+                            break;
+                    }
+                }
+            }
+        }
+    }
+    #endregion Room Selection
 
     #region Charge
     public void ChargeRequest(int money)
@@ -583,6 +654,8 @@ public class KLNetwork_Lobby : MonoBehaviour
 
         var getBankingURI = ApiUrlHelper.Get(UriBanking.ChargeList, JsonConvert.SerializeObject(request));
 
+        Debug.Log ( $"<color=darkblue>ChargeListRequest -> {getBankingURI}</color>" );
+
         StartCoroutine(ChargeListResponse(getBankingURI));
     }
 
@@ -609,7 +682,7 @@ public class KLNetwork_Lobby : MonoBehaviour
             }
             else
             {
-
+                Debug.Log ( $"<color=darkblue>ChargeListResponse: {webRequest.downloadHandler.text}</color>" );
                 ChargeListResponce responseData = JsonConvert.DeserializeObject<ChargeListResponce>(webRequest.downloadHandler.text);
 
                 Debug.Log("ChangeList Response >> " + responseData.Status);
@@ -720,6 +793,7 @@ public class KLNetwork_Lobby : MonoBehaviour
 
                     Reddot_charge.SetActive(Reddot_chargeActive);
                     ObjChargeReddot.SetActive(Obj_Charge_ReddotActive);
+                    RatingLoadingRequest();
                 }
                 else
                 {
@@ -1618,6 +1692,10 @@ public class KLNetwork_Lobby : MonoBehaviour
                     }
 
                     LoadingRoomData = false;
+                    Debug.Log ( $"<color=darkblue>Time to Fetch room data.</color>" );
+                    var ratingList = UserInfoManager.ratingDataList;
+                    UserInfoManager.selectedRating = ratingList [ 0 ];
+                    RoomLoadingRequest ( 1 );
                 }
                 else
                 {

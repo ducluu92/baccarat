@@ -23,18 +23,22 @@ public class SceneChanger : MonoBehaviour
 
     static public void CallSceneLoader(string scenename)
     {
+        Debug.Log ( "Changing Scene 3333" );
         SceneName = scenename;
         SceneManager.LoadScene("Loading");
     }
 
     public void CallSceneLoader_nonstatic(string scenename)
     {
+        Debug.Log ( "Changing Scene 2222" );
         SceneName = scenename;
         SceneManager.LoadScene("Loading");
     }
 
     public void ChangeScene()
     {
+        
+        Debug.Log ( "Changing Scene" );
         if(SceneName != null)
         StartCoroutine(ChangeScene_Coroutine());
     }
