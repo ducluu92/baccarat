@@ -26,8 +26,9 @@ using System.Runtime.InteropServices;
 
 namespace Assets.Scripts.Network
 {
-    public class KLNetwork : MonoBehaviour
+    public class KLNetwork : MonoBehaviour 
     {
+        public bool isLoginScene;
         public GameObject loadingPanel;
         public GameObject errorAlertPanel;
         public GameObject ExitPanel;
@@ -42,6 +43,9 @@ namespace Assets.Scripts.Network
         public GameObject Obj_CheckImage_Nickname;
         public GameObject Obj_CheckImage_PromoCode;
 
+        public InputField idField;
+        public InputField pwdField;
+        
         public Text errorAlertPanel_Text;
         public Text version_Text;
 
@@ -99,6 +103,9 @@ namespace Assets.Scripts.Network
         public void WorkCheck()
         {
             Debug.Log("CountryApi OK !");
+            if ( isLoginScene ) {
+                LoginRequest ();
+            }
         }
 
 #region Login
@@ -106,16 +113,19 @@ namespace Assets.Scripts.Network
         {
             Debug.Log("Nomal-Login-Request");
 
-            InputField idField = GameObject.FindWithTag("Login_ID").GetComponent<InputField>();
-            InputField pwField = GameObject.FindWithTag("Login_PW").GetComponent<InputField>();
+            //InputField idField = GameObject.FindWithTag("Login_ID").GetComponent<InputField>();
+            //InputField pwField = GameObject.FindWithTag("Login_PW").GetComponent<InputField>();
 
+            idField.text = "testid01";
+            pwdField.text = "1234";
+            
             Loading = true;
 
             var token = TokenManager.Get();
             var req = new LoginRequest
             {
                 ID = idField.text,
-                Password = Convertor.Base64Encode(pwField.text),
+                Password = Convertor.Base64Encode(pwdField.text),
                 DeviceID = SystemInfo.deviceUniqueIdentifier,
                 DeviceType = SystemInfo.deviceModel,
                 DeviceIP = clientIP == null ? "" : clientIP,
@@ -176,10 +186,10 @@ namespace Assets.Scripts.Network
                         UserInfoManager.loginInfo = responseData;
                         UserInfoManager.AccountInfo = responseData.AccountInfo;
 
-                        InputField idField = GameObject.FindWithTag("Login_ID").GetComponent<InputField>();
-                        InputField pwField = GameObject.FindWithTag("Login_PW").GetComponent<InputField>();
+                        //InputField idField = GameObject.FindWithTag("Login_ID").GetComponent<InputField>();
+                        //InputField pwField = GameObject.FindWithTag("Login_PW").GetComponent<InputField>();
                         _rememberMeService.SetID(idField.text);
-                        _rememberMeService.SetPassword(pwField.text);
+                        _rememberMeService.SetPassword(pwdField.text);
 
                         // 로그인 -> 로비 넘어가는 부분
                         SceneChanger.CallSceneLoader("Lobby");

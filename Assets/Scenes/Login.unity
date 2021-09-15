@@ -11264,6 +11264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0275fa3cc0663e45b2c03e4186e7c51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLoginScene: 1
   loadingPanel: {fileID: 493221457}
   errorAlertPanel: {fileID: 1579085379}
   ExitPanel: {fileID: 1343186773}
@@ -11274,6 +11275,8 @@ MonoBehaviour:
   Obj_CheckImage_Email: {fileID: 0}
   Obj_CheckImage_Nickname: {fileID: 522425342}
   Obj_CheckImage_PromoCode: {fileID: 1645593448}
+  idField: {fileID: 1127357391}
+  pwdField: {fileID: 1542555873}
   errorAlertPanel_Text: {fileID: 1822894528}
   version_Text: {fileID: 304288959}
 --- !u!225 &1640245318
