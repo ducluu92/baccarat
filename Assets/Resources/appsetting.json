@@ -1,0 +1,95 @@
+{
+  /* 어플리케이션 버전 */
+  "Version": "1.4.0",
+
+  /* 개발 모드 및 운영 모드 선택 : 0 (Dev), 1(Live) */
+  "Environment": 1,
+
+  /* 네트워크 타겟 (Local, JP, US, JP-ACC, HK-ACC, PUBLIC, PUBLIC-REAL) */
+  "NetworkTarget": "PUBLIC-REAL",
+
+  "IsOpenAll": true,
+
+  "Networks": [
+    {
+      "Index": 0,
+      "Location": "Local",
+      "ApiByHttp": 1,
+      "ApiByHost": "localhost",
+      "ApiByPort": 10001,
+      "NetworkByHost": "localhost",
+      "NetworkByPort": 16467,
+      "PublicDns": "127.0.0.1"
+    },
+    {
+      "Index": 1,
+      "Location": "JP",
+      "ApiByHttp": 0,
+      "ApiByHost": "live-baccarat.ybmsoft.com",
+      "ApiByPort": 10000,
+      "NetworkByHost": "live-baccarat.ybmsoft.com",
+      "NetworkByPort": 16467,
+      "PublicDns": "101.110.53.193"
+    },
+    {
+      "Index": 2,
+      "Location": "US",
+      "ApiByHttp": 0,
+      "ApiByHost": "76.81.8.86",
+      "ApiByPort": 10000,
+      "NetworkByHost": "76.81.8.86",
+      "NetworkByPort": 16467,
+      "PublicDns": "208.25.96.18"
+    },
+    {
+      // AWS Accelator setting
+      "Index": 3,
+      "Location": "JP-ACC",
+      "ApiByHttp": 0,
+      "ApiByHost": "52.69.81.225",
+      "ApiByPort": 10000,
+      "NetworkByHost": "global-baccarat.ybmsoft.com",
+      "NetworkByPort": 16467,
+      "PublicDns": "13.248.198.242"
+    },
+    {
+      // AWS Accelator setting
+      "Index": 4,
+      "Location": "HK-ACC",
+      "ApiByHttp": 0,
+      "ApiByHost": "aadc31687048471f9.awsglobalaccelerator.com",
+      "ApiByPort": 80,
+      "NetworkByHost": "aadc31687048471f9.awsglobalaccelerator.com",
+      "NetworkByPort": 16467,
+      "PublicDns": "13.248.188.207"
+    },
+    {
+      // AWS JP Public Open Accelator setting
+      "Index": 5,
+      "Location": "PUBLIC",
+      "ApiByHttp": 0,
+      "ApiByHost": "3.113.25.220",
+      "ApiByPort": 10000,
+      "NetworkByHost": "3.113.25.220",
+      "NetworkByPort": 16467,
+      "PublicDns": "3.113.25.220"
+    },
+    {
+      // AWS JP Public Real Open Accelator setting
+      "Index": 6,
+      "Location": "PUBLIC-REAL",
+      "ApiByHttp": 0,
+      "ApiByHost": "76.81.8.86",
+      "ApiByPort": 10000,
+      "NetworkByHost": "76.81.8.86",
+      "NetworkByPort": 16467,
+      "PublicDns": "76.223.86.94"
+    }
+    /*
+     "baccarat.fftt88.com",
+    Public DNS Server List
+    https://public-dns.info/
+    */
+  ]
+
+}

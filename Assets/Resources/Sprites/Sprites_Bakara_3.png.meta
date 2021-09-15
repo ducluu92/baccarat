@@ -1,0 +1,711 @@
+fileFormatVersion: 2
+guid: 5531eba1bd5325a4bb2507441e9af0f5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sprites_Bakara_3_0
+    21300002: Sprites_Bakara_3_1
+    21300004: Sprites_Bakara_3_2
+    21300006: Sprites_Bakara_3_3
+    21300008: Sprites_Bakara_3_4
+    21300010: Sprites_Bakara_3_5
+    21300012: Sprites_Bakara_3_6
+    21300014: Sprites_Bakara_3_7
+    21300016: Sprites_Bakara_3_8
+    21300018: Sprites_Bakara_3_9
+    21300020: Sprites_Bakara_3_10
+    21300022: Sprites_Bakara_3_11
+    21300024: Sprites_Bakara_3_12
+    21300026: Sprites_Bakara_3_15
+    21300028: Sprites_Bakara_3_16
+    21300030: Sprites_Bakara_3_17
+    21300032: Sprites_Bakara_3_18
+    21300034: Sprites_Bakara_3_19
+    21300036: Sprites_Bakara_3_20
+    21300038: Sprites_Bakara_3_21
+    21300040: Sprites_Bakara_3_22
+    21300042: Sprites_Bakara_3_23
+    21300044: Sprites_Bakara_3_24
+    21300046: Sprites_Bakara_3_25
+    21300048: Sprites_Bakara_3_26
+    21300050: Sprites_Bakara_3_27
+    21300052: Sprites_Bakara_3_28
+    21300054: Sprites_Bakara_3_29
+    21300056: Sprites_Bakara_3_30
+    21300058: Sprites_Bakara_3_31
+    21300060: Sprites_Bakara_3_32
+    21300062: Sprites_Bakara_3_33
+    21300064: Sprites_Bakara_3_34
+    21300066: Sprites_Bakara_3_35
+    21300068: Sprites_Bakara_3_36
+    21300070: Sprites_Bakara_3_37
+    21300072: Sprites_Bakara_3_38
+    21300074: Sprites_Bakara_3_39
+    21300076: Sprites_Bakara_3_40
+    21300078: Sprites_Bakara_3_41
+    21300080: Sprites_Bakara_3_42
+    21300082: Sprites_Bakara_3_43
+    21300084: Sprites_Bakara_3_44
+    21300086: Sprites_Bakara_3_45
+    21300088: Sprites_Bakara_3_46
+    21300090: Sprites_Bakara_3_47
+    21300092: Sprites_Bakara_3_48
+    21300094: Sprites_Bakara_3_49
+    21300096: Sprites_Bakara_3_50
+    21300098: Sprites_Bakara_3_51
+    21300100: Sprites_Bakara_3_52
+    21300102: Sprites_Bakara_3_53
+    21300104: Sprites_Bakara_3_54
+    21300106: Sprites_Bakara_3_55
+    21300108: Sprites_Bakara_3_56
+    21300110: Sprites_Bakara_3_57
+    21300112: Sprites_Bakara_3_58
+    21300114: Sprites_Bakara_3_59
+    21300116: Sprites_Bakara_3_60
+    21300118: Sprites_Bakara_3_61
+    21300120: Sprites_Bakara_3_62
+    21300122: Sprites_Bakara_3_63
+    21300124: Sprites_Bakara_3_64
+    21300126: Sprites_Bakara_3_65
+    21300128: Sprites_Bakara_3_66
+    21300130: Sprites_Bakara_3_67
+    21300132: Sprites_Bakara_3_68
+    21300134: Sprites_Bakara_3_69
+    21300136: Sprites_Bakara_3_70
+    21300138: Sprites_Bakara_3_71
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 746
+        width: 259
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ffbffe81e3eed4681a45e380ac1a55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 746
+        width: 373
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f89d07b568d6f046881e20c82341f4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_2
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 808
+        width: 239
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c43abaf9d9aecf448b7e3564f550a2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 617
+        width: 222
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95641162da5e84b4a9f9e3a383bf3732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 617
+        width: 369
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f98215c35120e4d99a9a43f3b564f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_5
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 704
+        width: 250
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c152994de64e6fc489ad658b60dd4876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 354
+        width: 260
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28bdebdd860ec14b8cae7030e9c82c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_7
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 354
+        width: 374
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0c36ca10d6b5f4a94cbb80d8bc02da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_8
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 463
+        width: 240
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7bd87689663da4b866ce9259c98494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_9
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 350
+        width: 250
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d276c881c1b7c4da58228ec86f01bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 226
+        width: 223
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e8bdc4c5286374aafd62fc78a89a5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_11
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 214
+        width: 368
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284da91673b4d2a4cb5e803f876edfcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_12
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 272
+        width: 77
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f0d26cbcfc8d747942913c59733ae8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_15
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 274
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d0bfa9b99b8c943ab25d351c4f5272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_17
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 274
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c368177da7ebea048ad1a8431e29ce8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_19
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 191
+        width: 120
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fbda36053ec2940a07af43d41c9848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_24
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 132
+        width: 110
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65875c9a49dddac44a482857992dcffb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_27
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 140
+        width: 125
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43dd3fa45c227dc4f84a1c90430670ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_31
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 151
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8249e0d762d89df4aace0716cfc6be30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_40
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 116
+        width: 141
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c51d3000cca47142967abc85f9cc26d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_45
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 120
+        width: 115
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cd56e0304f97240addfab90e043812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_48
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 30
+        width: 109
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d20e90abcf8a08469df75f9199ad155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_51
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 30
+        width: 126
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a232b523d707aaf48ac1423fad7f9341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_64
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 40
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5695e2a83c769fe439663878b7ee194c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_69
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 30
+        width: 142
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a3d745c3b2e5b4589525233d68b347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Bakara_3_70
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 30
+        width: 115
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd162f01c9a7fb4db8b84a1e8ab0d82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b591c791ba2fa814b8314792e382c4da
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

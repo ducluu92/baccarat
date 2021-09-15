@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Login_ID
+  - Login_PW
+  - SighUp_ID
+  - SighUp_PW
+  - SighUp_PWC
+  - SighUp_EMAIL
+  - SighUp_NICK
+  - SighUp_PHONE
+  - SighUp_PROMO
+  - SighUp_BANK
+  - SighUp_ACCOUNT
+  - SighUp_ACCOUNT_NUM
+  - SighUp_PIN
+  - KLNETWORK_LOBBY
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - LetterBox
+  - Particle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Chip_player0
+    uniqueID: 1258122255
+    locked: 0
+  - name: Chip_player1
+    uniqueID: 2139590927
+    locked: 0
+  - name: Chip_player2
+    uniqueID: 2980909485
+    locked: 0
+  - name: Chip_player3
+    uniqueID: 374532763
+    locked: 0
+  - name: Chip_player4
+    uniqueID: 1085036519
+    locked: 0
+  - name: Chip_Player5
+    uniqueID: 1256477437
+    locked: 0
+  - name: Chip_Player6
+    uniqueID: 1143278521
+    locked: 0
+  - name: Chip_Stack
+    uniqueID: 3256646965
+    locked: 0
+  - name: UI
+    uniqueID: 4219108437
+    locked: 0
+  - name: Card
+    uniqueID: 694144205
+    locked: 0
+  - name: SysUI
+    uniqueID: 2279753493
+    locked: 0

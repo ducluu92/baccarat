@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: 03dee56f3b6d78c4094bf02c598b8afb
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Loading Animation 1_0
+    21300002: Loading Animation 1_1
+    21300004: Loading Animation 1_2
+    21300006: Loading Animation 1_3
+    21300008: Loading Animation 1_4
+    21300010: Loading Animation 1_5
+    21300012: Loading Animation 1_6
+    21300014: Loading Animation 1_7
+    21300016: Loading Animation 1_8
+    21300018: Loading Animation 1_9
+    21300020: Loading Animation 1_10
+    21300022: Loading Animation 1_11
+    21300024: Loading Animation 2_0
+    21300026: Loading Animation 2_1
+    21300028: Loading Animation 2_2
+    21300030: Loading Animation 2_3
+    21300032: Loading Animation 2_4
+    21300034: Loading Animation 2_5
+    21300036: Loading Animation 2_6
+    21300038: Loading Animation 2_7
+    21300040: Loading Animation 2_8
+    21300042: Loading Animation 2_9
+    21300044: Loading Animation 2_10
+    21300046: Loading Animation 2_11
+    21300048: Loadimation01v2_0
+    21300050: Loadimation01v2_1
+    21300052: Loadimation01v2_2
+    21300054: Loadimation01v2_3
+    21300056: Loadimation01v2_4
+    21300058: Loadimation01v2_5
+    21300060: Loadimation01v2_6
+    21300062: Loadimation01v2_7
+    21300064: Loadimation01v2_8
+    21300066: Loadimation01v2_9
+    21300068: Loadimation01v2_10
+    21300070: Loadimation01v2_11
+    21300072: Loadimation01v3_0
+    21300074: Loadimation01v3_1
+    21300076: Loadimation01v3_2
+    21300078: Loadimation01v3_3
+    21300080: Loadimation01v3_4
+    21300082: Loadimation01v3_5
+    21300084: Loadimation01v3_6
+    21300086: Loadimation01v3_7
+    21300088: Loadimation01v3_8
+    21300090: Loadimation01v3_9
+    21300092: Loadimation01v3_10
+    21300094: Loadimation01v3_11
+    21300096: Loadimation01v4_0
+    21300098: Loadimation01v4_1
+    21300100: Loadimation01v4_2
+    21300102: Loadimation01v4_3
+    21300104: Loadimation01v4_4
+    21300106: Loadimation01v4_5
+    21300108: Loadimation01v4_6
+    21300110: Loadimation01v4_7
+    21300112: Loadimation01v4_8
+    21300114: Loadimation01v4_9
+    21300116: Loadimation01v4_10
+    21300118: Loadimation01v4_11
+    21300120: Loadimation01v5_0
+    21300122: Loadimation01v5_1
+    21300124: Loadimation01v5_2
+    21300126: Loadimation01v5_3
+    21300128: Loadimation01v5_4
+    21300130: Loadimation01v5_5
+    21300132: Loadimation01v5_6
+    21300134: Loadimation01v5_7
+    21300136: Loadimation01v5_8
+    21300138: Loadimation01v5_9
+    21300140: Loadimation01v5_10
+    21300142: Loadimation01v5_11
+    21300144: Loadimation02v1_0
+    21300146: Loadimation02v1_1
+    21300148: Loadimation02v1_2
+    21300150: Loadimation02v1_3
+    21300152: Loadimation02v1_4
+    21300154: Loadimation02v1_5
+    21300156: Loadimation02v1_6
+    21300158: Loadimation02v1_7
+    21300160: Loadimation02v1_8
+    21300162: Loadimation02v1_9
+    21300164: Loadimation02v1_10
+    21300166: Loadimation02v1_11
+    21300168: Loadimation02v2_0
+    21300170: Loadimation02v2_1
+    21300172: Loadimation02v2_2
+    21300174: Loadimation02v2_3
+    21300176: Loadimation02v2_4
+    21300178: Loadimation02v2_5
+    21300180: Loadimation02v2_6
+    21300182: Loadimation02v2_7
+    21300184: Loadimation02v2_8
+    21300186: Loadimation02v2_9
+    21300188: Loadimation02v2_10
+    21300190: Loadimation02v2_11
+    21300192: Loadimation02v3_0
+    21300194: Loadimation02v3_1
+    21300196: Loadimation02v3_2
+    21300198: Loadimation02v3_3
+    21300200: Loadimation02v3_4
+    21300202: Loadimation02v3_5
+    21300204: Loadimation02v3_6
+    21300206: Loadimation02v3_7
+    21300208: Loadimation02v3_8
+    21300210: Loadimation02v3_9
+    21300212: Loadimation02v3_10
+    21300214: Loadimation02v3_11
+    21300216: Loadimation02v4_0
+    21300218: Loadimation02v4_1
+    21300220: Loadimation02v4_2
+    21300222: Loadimation02v4_3
+    21300224: Loadimation02v4_4
+    21300226: Loadimation02v4_5
+    21300228: Loadimation02v4_6
+    21300230: Loadimation02v4_7
+    21300232: Loadimation02v4_8
+    21300234: Loadimation02v4_9
+    21300236: Loadimation02v4_10
+    21300238: Loadimation02v4_11
+    21300240: Loadimation02v5_0
+    21300242: Loadimation02v5_1
+    21300244: Loadimation02v5_2
+    21300246: Loadimation02v5_3
+    21300248: Loadimation02v5_4
+    21300250: Loadimation02v5_5
+    21300252: Loadimation02v5_6
+    21300254: Loadimation02v5_7
+    21300256: Loadimation02v5_8
+    21300258: Loadimation02v5_9
+    21300260: Loadimation02v5_10
+    21300262: Loadimation02v5_11
+    21300264: Loadimation04_0
+    21300266: Loadimation04_1
+    21300268: Loadimation04_2
+    21300270: Loadimation04_3
+    21300272: Loadimation04_4
+    21300274: Loadimation04_5
+    21300276: Loadimation04_6
+    21300278: Loadimation04_7
+    21300280: Loadimation04_8
+    21300282: Loadimation04_9
+    21300284: Loadimation04_10
+    21300286: Loadimation04_11
+    21300288: Loadimation011_0
+    21300290: Loadimation011_1
+    21300292: Loadimation011_2
+    21300294: Loadimation011_3
+    21300296: Loadimation011_4
+    21300298: Loadimation011_5
+    21300300: Loadimation011_6
+    21300302: Loadimation011_7
+    21300304: Loadimation011_8
+    21300306: Loadimation011_9
+    21300308: Loadimation011_10
+    21300310: Loadimation011_11
+    21300312: Loadimation012_0
+    21300314: Loadimation012_1
+    21300316: Loadimation012_2
+    21300318: Loadimation012_3
+    21300320: Loadimation012_4
+    21300322: Loadimation012_5
+    21300324: Loadimation012_6
+    21300326: Loadimation012_7
+    21300328: Loadimation012_8
+    21300330: Loadimation012_9
+    21300332: Loadimation012_10
+    21300334: Loadimation012_11
+    21300336: Loadimation013_0
+    21300338: Loadimation013_1
+    21300340: Loadimation013_2
+    21300342: Loadimation013_3
+    21300344: Loadimation013_4
+    21300346: Loadimation013_5
+    21300348: Loadimation013_6
+    21300350: Loadimation013_7
+    21300352: Loadimation013_8
+    21300354: Loadimation013_9
+    21300356: Loadimation013_10
+    21300358: Loadimation013_11
+    21300360: Loadimation014_0
+    21300362: Loadimation014_1
+    21300364: Loadimation014_2
+    21300366: Loadimation014_3
+    21300368: Loadimation014_4
+    21300370: Loadimation014_5
+    21300372: Loadimation014_6
+    21300374: Loadimation014_7
+    21300376: Loadimation014_8
+    21300378: Loadimation014_9
+    21300380: Loadimation014_10
+    21300382: Loadimation014_11
+    21300384: Loadimation015_0
+    21300386: Loadimation015_1
+    21300388: Loadimation015_2
+    21300390: Loadimation015_3
+    21300392: Loadimation015_4
+    21300394: Loadimation015_5
+    21300396: Loadimation015_6
+    21300398: Loadimation015_7
+    21300400: Loadimation015_8
+    21300402: Loadimation015_9
+    21300404: Loadimation015_10
+    21300406: Loadimation015_11
+    21300408: Loadimation016_0
+    21300410: Loadimation016_1
+    21300412: Loadimation016_2
+    21300414: Loadimation016_3
+    21300416: Loadimation016_4
+    21300418: Loadimation016_5
+    21300420: Loadimation016_6
+    21300422: Loadimation016_7
+    21300424: Loadimation016_8
+    21300426: Loadimation016_9
+    21300428: Loadimation016_10
+    21300430: Loadimation016_11
+    21300432: Loadimation017_0
+    21300434: Loadimation017_1
+    21300436: Loadimation017_2
+    21300438: Loadimation017_3
+    21300440: Loadimation017_4
+    21300442: Loadimation017_5
+    21300444: Loadimation017_6
+    21300446: Loadimation017_7
+    21300448: Loadimation017_8
+    21300450: Loadimation017_9
+    21300452: Loadimation017_10
+    21300454: Loadimation017_11
+    21300456: Loadimation028_0
+    21300458: Loadimation028_1
+    21300460: Loadimation028_2
+    21300462: Loadimation028_3
+    21300464: Loadimation028_4
+    21300466: Loadimation028_5
+    21300468: Loadimation028_6
+    21300470: Loadimation028_7
+    21300472: Loadimation028_8
+    21300474: Loadimation028_9
+    21300476: Loadimation028_10
+    21300478: Loadimation028_11
+    21300480: Loadimation028_12
+    21300482: Loadimation028_13
+    21300484: Loadimation028_14
+    21300486: Loadimation028_15
+    21300488: Loadimation031_0
+    21300490: Loadimation031_1
+    21300492: Loadimation031_2
+    21300494: Loadimation031_3
+    21300496: Loadimation031_4
+    21300498: Loadimation031_5
+    21300500: Loadimation031_6
+    21300502: Loadimation031_7
+    21300504: Loadimation031_8
+    21300506: Loadimation031_9
+    21300508: Loadimation031_10
+    21300510: Loadimation031_11
+    21300512: Loadimation031_12
+    21300514: Loadimation031_13
+    21300516: Loadimation033_0
+    21300518: Loadimation033_1
+    21300520: Loadimation033_2
+    21300522: Loadimation033_3
+    21300524: Loadimation033_4
+    21300526: Loadimation033_5
+    21300528: Loadimation033_6
+    21300530: Loadimation033_7
+    21300532: Loadimation033_8
+    21300534: Loadimation033_9
+    21300536: Loadimation033_10
+    21300538: Loadimation033_11
+    21300540: Loadimation033_12
+    21300542: Loadimation033_13
+    21300544: Loadimation033_14
+    21300546: Loadimation033_15
+    21300548: Loadimation041_0
+    21300550: Loadimation041_1
+    21300552: Loadimation041_2
+    21300554: Loadimation041_3
+    21300556: Loadimation041_4
+    21300558: Loadimation041_5
+    21300560: Loadimation041_6
+    21300562: Loadimation041_7
+    21300564: Loadimation045_0
+    21300566: Loadimation045_1
+    21300568: Loadimation045_2
+    21300570: Loadimation045_3
+    21300572: Loadimation045_4
+    21300574: Loadimation045_5
+    21300576: Loadimation045_6
+    21300578: Loadimation045_7
+    21300580: Loadimation045_8
+    21300582: Loadimation045_9
+    21300584: Loadimation045_10
+    21300586: Loadimation045_11
+    21300588: Loadimation045_12
+    21300590: Loadimation045_13
+    21300592: Loadimation045_14
+    21300594: Loadimation045_15
+    21300596: Loadimation045_16
+    21300598: Loadimation045_17
+    21300600: Loadimation045_18
+    21300602: Loadimation045_19
+    21300604: Loadimation045_20
+    21300606: Loadimation045_21
+    21300608: Loadimation045_22
+    21300610: Loadimation045_23
+    21300612: Loadimation045_24
+    21300614: Loadimation045_25
+    21300616: Loadimation045_26
+    21300618: Loadimation045_27
+    21300620: Loadimation045_28
+    21300622: Loadimation045_29
+    21300624: Loadimation045_30
+    21300626: Loadimation045_31
+    21300628: Loadimation047_0
+    21300630: Loadimation047_1
+    21300632: Loadimation047_2
+    21300634: Loadimation047_3
+    21300636: Loadimation047_4
+    21300638: Loadimation047_5
+    21300640: Loadimation047_6
+    21300642: Loadimation047_7
+    21300644: Loadimation047_8
+    21300646: Loadimation047_9
+    21300648: Loadimation047_10
+    21300650: Loadimation047_11
+    21300652: Loadimation047_12
+    21300654: Loadimation047_13
+    21300656: Loadimation047_14
+    21300658: Loadimation047_15
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Loadimation047_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a9250cc0b146946b29ab7323d80e70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac43d4e29a566f449289df7fbf940a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c25b5758908ec43bd61c7487fe70b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf0539a8af8cf04da8b4292bf2d9242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb018b88bf9263b469cf6d3ca9274864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70962d30307a8e246bdb9a6e7553f6a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f5cdf70f39b6040aae90362240afea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694746780c78dfb4dab9e295ab738a1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34218ddb05f9f6c4b894feeb1a481530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32aed4fb0b771c44680e297ec945c2b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d461175998f858468ba1f60f6b6679e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a92bc3642463254bb3d3656356a4dda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15b344ca081b8d409abb733a6d448a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b368523862f15a44484116fe348ea7bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5f7f3437d788d41946c2d357f805a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loadimation047_15
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59be029687ef2af47947f08f5c58475b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

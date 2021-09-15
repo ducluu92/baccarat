@@ -1,0 +1,7 @@
+Library/
+*.sln
+Temp/
+*.csproj
+*.DotSettings
+*.user
+Build/
