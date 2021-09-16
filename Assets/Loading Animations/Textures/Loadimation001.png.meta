@@ -1,45 +1,117 @@
 fileFormatVersion: 2
 guid: 5a28b3cd679002b4588c32c82838ed4d
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Loading Animation 1_0
-    21300002: Loading Animation 1_1
-    21300004: Loading Animation 1_2
-    21300006: Loading Animation 1_3
-    21300008: Loading Animation 1_4
-    21300010: Loading Animation 1_5
-    21300012: Loading Animation 1_6
-    21300014: Loading Animation 1_7
-    21300016: Loading Animation 1_8
-    21300018: Loading Animation 1_9
-    21300020: Loading Animation 1_10
-    21300022: Loading Animation 1_11
-    21300024: Loadimation01v1_0
-    21300026: Loadimation01v1_1
-    21300028: Loadimation01v1_2
-    21300030: Loadimation01v1_3
-    21300032: Loadimation01v1_4
-    21300034: Loadimation01v1_5
-    21300036: Loadimation01v1_6
-    21300038: Loadimation01v1_7
-    21300040: Loadimation01v1_8
-    21300042: Loadimation01v1_9
-    21300044: Loadimation01v1_10
-    21300046: Loadimation01v1_11
-    21300048: Loadimation01_0
-    21300050: Loadimation01_1
-    21300052: Loadimation01_2
-    21300054: Loadimation01_3
-    21300056: Loadimation01_4
-    21300058: Loadimation01_5
-    21300060: Loadimation01_6
-    21300062: Loadimation01_7
-    21300064: Loadimation01_8
-    21300066: Loadimation01_9
-    21300068: Loadimation01_10
-    21300070: Loadimation01_11
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Loading Animation 1_0
+  - first:
+      213: 21300002
+    second: Loading Animation 1_1
+  - first:
+      213: 21300004
+    second: Loading Animation 1_2
+  - first:
+      213: 21300006
+    second: Loading Animation 1_3
+  - first:
+      213: 21300008
+    second: Loading Animation 1_4
+  - first:
+      213: 21300010
+    second: Loading Animation 1_5
+  - first:
+      213: 21300012
+    second: Loading Animation 1_6
+  - first:
+      213: 21300014
+    second: Loading Animation 1_7
+  - first:
+      213: 21300016
+    second: Loading Animation 1_8
+  - first:
+      213: 21300018
+    second: Loading Animation 1_9
+  - first:
+      213: 21300020
+    second: Loading Animation 1_10
+  - first:
+      213: 21300022
+    second: Loading Animation 1_11
+  - first:
+      213: 21300024
+    second: Loadimation01v1_0
+  - first:
+      213: 21300026
+    second: Loadimation01v1_1
+  - first:
+      213: 21300028
+    second: Loadimation01v1_2
+  - first:
+      213: 21300030
+    second: Loadimation01v1_3
+  - first:
+      213: 21300032
+    second: Loadimation01v1_4
+  - first:
+      213: 21300034
+    second: Loadimation01v1_5
+  - first:
+      213: 21300036
+    second: Loadimation01v1_6
+  - first:
+      213: 21300038
+    second: Loadimation01v1_7
+  - first:
+      213: 21300040
+    second: Loadimation01v1_8
+  - first:
+      213: 21300042
+    second: Loadimation01v1_9
+  - first:
+      213: 21300044
+    second: Loadimation01v1_10
+  - first:
+      213: 21300046
+    second: Loadimation01v1_11
+  - first:
+      213: 21300048
+    second: Loadimation01_0
+  - first:
+      213: 21300050
+    second: Loadimation01_1
+  - first:
+      213: 21300052
+    second: Loadimation01_2
+  - first:
+      213: 21300054
+    second: Loadimation01_3
+  - first:
+      213: 21300056
+    second: Loadimation01_4
+  - first:
+      213: 21300058
+    second: Loadimation01_5
+  - first:
+      213: 21300060
+    second: Loadimation01_6
+  - first:
+      213: 21300062
+    second: Loadimation01_7
+  - first:
+      213: 21300064
+    second: Loadimation01_8
+  - first:
+      213: 21300066
+    second: Loadimation01_9
+  - first:
+      213: 21300068
+    second: Loadimation01_10
+  - first:
+      213: 21300070
+    second: Loadimation01_11
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -93,8 +165,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -105,6 +178,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -124,6 +198,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 40f21cd23447fe244a80d826b226ef36
+      internalID: 21300048
       vertices: []
       indices: 
       edges: []
@@ -144,6 +219,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 43b325a3213d8aa448d096fbefe5e300
+      internalID: 21300050
       vertices: []
       indices: 
       edges: []
@@ -164,6 +240,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: da01153537289e0408825ce41a0a35c7
+      internalID: 21300052
       vertices: []
       indices: 
       edges: []
@@ -184,6 +261,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 7bf1b2fd7541ddf4a895d2327dea2685
+      internalID: 21300054
       vertices: []
       indices: 
       edges: []
@@ -204,6 +282,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 7823d61b101835f479ce0ee7c392f436
+      internalID: 21300056
       vertices: []
       indices: 
       edges: []
@@ -224,6 +303,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 7dca1cfd2944cd842b0efff82268e787
+      internalID: 21300058
       vertices: []
       indices: 
       edges: []
@@ -244,6 +324,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 55fd4c7572664d54b90b899cdc3389af
+      internalID: 21300060
       vertices: []
       indices: 
       edges: []
@@ -264,6 +345,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: c7f74c7e77f8b5444bc79ac622e286e6
+      internalID: 21300062
       vertices: []
       indices: 
       edges: []
@@ -284,6 +366,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: d97e179bbd0b0944e8ce65d61a7e6989
+      internalID: 21300064
       vertices: []
       indices: 
       edges: []
@@ -304,6 +387,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 592e4d040a0ed2d4d8d60f87de58a152
+      internalID: 21300066
       vertices: []
       indices: 
       edges: []
@@ -324,6 +408,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 0d4de909f4ca7e849b85cebf72f81a9e
+      internalID: 21300068
       vertices: []
       indices: 
       edges: []
@@ -344,6 +429,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 72634bd70b36aaa40a4e188984e3454c
+      internalID: 21300070
       vertices: []
       indices: 
       edges: []
@@ -352,10 +438,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

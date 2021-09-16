@@ -11,7 +11,7 @@ namespace Assets.Scripts.Baccarrat
 {
     public class LobbyRattingClickEvent : MonoBehaviour
     {
-        public int type;                            // 1 = lookie, 2 = pro, 3 = master, 4 = grand master
+        public int type ;                            // 1 = lookie, 2 = pro, 3 = master, 4 = grand master
 
         public GameObject Panel_Lobby;              // OFF
         public GameObject Panel_WatingRoom;         // ON
@@ -21,6 +21,10 @@ namespace Assets.Scripts.Baccarrat
         
         public GameObject Obj_AlertBox;             // 알림 박스
 
+        private void Start()
+        {
+            Invoke("LeagueIn", 2f);
+        }
         public void LeagueIn()
         {
             if(type > 0 && type <5)

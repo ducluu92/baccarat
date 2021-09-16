@@ -48,25 +48,25 @@ namespace Assets.Scripts.Baccarrat
 
         private void OnEnable()
         {
-            // switch(this.RoomType)
-            // {
-            //     case 0:
-            //         EnterButton.onClick.AddListener(_clickEvent);
-            //         break;
-            //     case 1:
-            //         EnterButton.onClick.AddListener(_MultiRoomclickEvent);
-            //         NetworkHandler = GameObject.FindGameObjectWithTag("KLNETWORK_LOBBY").GetComponent<KLNetwork_Lobby>();
-            //         break;
-            //     case 2:
-            //         EnterButton.onClick.AddListener(_clickEvent);
-            //         chinaboard.gameObject.SetActive(false);
-            //         break;
-            // }
-            //
-            // ButtonImage.sprite = ButtonSprites[this.RoomType];
+          /*  switch (this.RoomType)
+            {
+                case 0:
+                    EnterButton.onClick.AddListener(_clickEvent);
+                    break;
+                case 1:
+                    EnterButton.onClick.AddListener(_MultiRoomclickEvent);
+                    NetworkHandler = GameObject.FindGameObjectWithTag("KLNETWORK_LOBBY").GetComponent<KLNetwork_Lobby>();
+                    break;
+                case 2:
+                    EnterButton.onClick.AddListener(_clickEvent);
+                    chinaboard.gameObject.SetActive(false);
+                    break;
+            }*/
+
+            ButtonImage.sprite = ButtonSprites[this.RoomType];
 
             Debug.Log ( $"<color=darkblue>Starting room</color>" );
-            //_clickEvent ();
+            _clickEvent ();
         }
 
         void Update()

@@ -21,7 +21,7 @@ SpriteAtlas:
       crunchedCompression: 0
       sRGB: 1
     platformSettings:
-    - serializedVersion: 2
+    - serializedVersion: 3
       m_BuildTarget: DefaultTexturePlatform
       m_MaxTextureSize: 1024
       m_ResizeAlgorithm: 0
@@ -32,7 +32,8 @@ SpriteAtlas:
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
       m_AndroidETC2FallbackOverride: 0
-    - serializedVersion: 2
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
+    - serializedVersion: 3
       m_BuildTarget: Standalone
       m_MaxTextureSize: 2048
       m_ResizeAlgorithm: 0
@@ -43,7 +44,8 @@ SpriteAtlas:
       m_AllowsAlphaSplitting: 0
       m_Overridden: 1
       m_AndroidETC2FallbackOverride: 0
-    - serializedVersion: 2
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
+    - serializedVersion: 3
       m_BuildTarget: iPhone
       m_MaxTextureSize: 2048
       m_ResizeAlgorithm: 0
@@ -54,7 +56,8 @@ SpriteAtlas:
       m_AllowsAlphaSplitting: 0
       m_Overridden: 1
       m_AndroidETC2FallbackOverride: 0
-    - serializedVersion: 2
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
+    - serializedVersion: 3
       m_BuildTarget: Android
       m_MaxTextureSize: 2048
       m_ResizeAlgorithm: 0
@@ -65,6 +68,7 @@ SpriteAtlas:
       m_AllowsAlphaSplitting: 0
       m_Overridden: 1
       m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
     packingSettings:
       serializedVersion: 2
       padding: 2
@@ -149,7 +153,6 @@ SpriteAtlas:
     - {fileID: 21300018, guid: fa0efc19639f07b4d9d5faa383867a7b, type: 3}
     - {fileID: 21300020, guid: fa0efc19639f07b4d9d5faa383867a7b, type: 3}
     - {fileID: 21300022, guid: fa0efc19639f07b4d9d5faa383867a7b, type: 3}
-    totalSpriteSurfaceArea: 1273287
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:

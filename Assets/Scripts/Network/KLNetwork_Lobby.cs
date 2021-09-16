@@ -335,7 +335,7 @@ public class KLNetwork_Lobby : MonoBehaviour
                     }
                     
                     Debug.Log ( $"<color=darkblue>ABOUT TO START MATCH -> Count: {roomItemList.Count}</color>" );
-                    _clickEvent ( 0 );
+                //s    _clickEvent ( 0 );
                 }
                 else
                 {
@@ -364,6 +364,7 @@ public class KLNetwork_Lobby : MonoBehaviour
     
     #region Room Selection
     internal void _clickEvent ( int roomId ) {
+
         SequenceManger.SetDebug ( true );
         var status = SequenceManger.Call ( out var seq );
         switch ( status ) {
