@@ -63,7 +63,7 @@ namespace Assets.Scripts.Network
         void Start()
         {
             Time.timeScale = 1.0f;
-
+          
             Loading = false;
             AlertError = false;
 
@@ -192,8 +192,8 @@ namespace Assets.Scripts.Network
                         _rememberMeService.SetPassword(pwdField.text);
 
                         // 로그인 -> 로비 넘어가는 부분
-                        SceneChanger.CallSceneLoader("Lobby");
-
+                        //  SceneChanger.CallSceneLoader("Lobby");
+                        SceneManager.LoadSceneAsync("Lobby", LoadSceneMode.Additive);
                         //LoadPlayerInfo(UserInfoManager.loginInfo.UUID, UserInfoManager.loginInfo.Token);
                     }
                     else

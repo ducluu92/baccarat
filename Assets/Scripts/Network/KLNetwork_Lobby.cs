@@ -400,7 +400,8 @@ public class KLNetwork_Lobby : MonoBehaviour
                         Application.Quit ();
                     }
                     Debug.Log ( $"LOADING PLAY_BACCARAT SCENE" );
-                    SceneChanger.CallSceneLoader ( "Play_Baccarat" );
+                    GetComponent<SceneChanger>().CallSceneLoader_nonstatic("Play_Baccarat");
+                  //  SceneChanger.CallSceneLoader ( "Play_Baccarat" );
                 } else {
                     switch ( responseData.Status ) {
                         case CommonError.FailByNotFoundRoom:

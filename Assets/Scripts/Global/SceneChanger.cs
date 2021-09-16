@@ -26,6 +26,8 @@ public class SceneChanger : MonoBehaviour
         Debug.Log ( "Changing Scene 3333" );
         SceneName = scenename;
         SceneManager.LoadScene("Loading");
+        //SceneManager.LoadScene(scenename);
+
     }
 
     public void CallSceneLoader_nonstatic(string scenename)
